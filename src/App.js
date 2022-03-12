@@ -6,6 +6,11 @@ import { animeTitles } from './store';
 import Homepage from './pages/home';
 import Animepage from './pages/anime';
 
+/** Info
+ * Made from tutorial found @https://blog.openreplay.com/using-recoil-instead-of-redux-for-state-management-in-react-applications
+ * Repo at: https://github.com/Origho-precious/anime-quote-generator
+ */
+
 const App = () => {
   const setTitles = useSetRecoilState( animeTitles );
 
